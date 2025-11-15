@@ -21,7 +21,7 @@ sh# Clone the repository
 git clone <YOUR_GIT_URL>
 
 # Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+cd <document_analyze>
 
 # Install dependencies
 npm i
@@ -89,9 +89,67 @@ npm run build - Build for production
 npm run preview - Preview production build locally
 npm run lint - Run ESLint
 
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-License
-MIT License - feel free to use this project for personal or commercial purposes.
+Core Features1. Document Upload & Processing
 
-Built with ❤️ using modern web technologies
+Upload multiple document formats (PDF, Word, TXT, etc.)
+Drag-and-drop interface for easy file upload
+Support for documents of various sizes
+Real-time file validation and error handling
+2. Intelligent Document Analysis
+
+Automatic document type detection (academic, business, legal, technical)
+Language identification
+Structure recognition (headings, sections, paragraphs)
+Metadata extraction (author, date, title)
+3. Multi-Layer Summarization
+
+Executive Summary: 2-3 sentence overview of the entire document
+Key Points: Bullet-point extraction of critical information
+Detailed Summary: Comprehensive section-by-section breakdown
+Important Details: Dates, names, action items, and deadlines
+Document Metadata: Type, length, complexity, and audience
+4. Adaptive Summary Generation
+
+Automatically adjusts detail level based on document length
+Customizable summary depth (brief, standard, detailed)
+Context-aware summarization based on document type
+Preservation of technical terminology when needed
+5. Document Type Specialization
+
+Technical Documents: Methodology, processes, and results focus
+Legal Documents: Key clauses, obligations, and dates
+Academic Papers: Research questions, methodology, findings
+Business Reports: Objectives, metrics, action items
+6. Interactive User Interface
+
+Clean, modern design with intuitive navigation
+Responsive layout (works on desktop, tablet, mobile)
+Real-time processing status indicators
+Progress bars for document analysis
+7. Summary Export Options
+
+Copy summary to clipboard
+Download as Markdown file
+Download as PDF
+Download as plain text
+Print-friendly format
+8. Search & Highlight
+
+Search within summaries
+Keyword highlighting
+Jump to specific sections
+Find and navigate through document content
+9. Document Management
+
+View summary history
+Save summaries for later reference
+Compare multiple document summaries
+Organize summaries by categories/tags
+10. Customization Options
+
+Adjust summary length (short, medium, long)
+Select focus areas (main points, details, conclusions)
+Choose output format preferences
+Set language preferences
+
+
